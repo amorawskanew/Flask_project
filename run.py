@@ -14,7 +14,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html") .capitalize
 
 @app.route('/careers')
 def careers():
